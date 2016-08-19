@@ -12,7 +12,7 @@
 	"preBuildCommands": ["cd sqlite3 && make"],
         "subConfigurations": {
             "d2sqlite3": "all-included"
-        }
+        },
 	"configurations": [
 		{
 			"name": "application",
