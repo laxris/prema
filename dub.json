@@ -10,9 +10,6 @@
 	},
 	"lflags": ["sqlite3/libsqlite3.so"],
 	"preBuildCommands": ["cd sqlite3 && make"],
-        "subConfigurations": {
-            "d2sqlite3": "all-included"
-        },
 	"configurations": [
 		{
 			"name": "application",
